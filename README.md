@@ -6,6 +6,11 @@
 
 
 ## 2. Dependencies
+>python >= 3.8  
+>torch >= 1.10.0  
+>torchvision >= 0.11.0  
+>opencv-python >= 4.8.0.76
+>tensorboardX >= 2.6.2.2
 
 
 ## 3. HWDB Dataset
@@ -22,11 +27,10 @@ Step 1:
 
 Extract the downloaded zip file into a gnt file.
 
-Note: HWDB1.1trn_gnt.zip unzipped is alz file, need to unzipped alz file again.
+Note——HWDB1.1trn_gnt.zip unzipped is alz file, need to unzipped alz file again.
 
-Unzip the alz file: [Windows](https://alzip.en.softonic.com/download need to download software), 
-Linux: unalz HWDB1.1trn_gnt.alz
+Unzip the alz file——[Windows](https://alzip.en.softonic.com/download need to download software), Linux: unalz HWDB1.1trn_gnt.alz
 
 Step 2:
 
-Convert the gnt file to all png images in the corresponding label directory. Modify the path to run the program.
+Convert the gnt file to all png images in the corresponding label directory. Modify the path in process_gnt.py to run the program.
