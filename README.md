@@ -40,6 +40,6 @@ Convert the gnt file to all png images in the corresponding label directory. Mod
 
 ## 4. Model 
 
-Compared to its MobileNetV1 and MobileNetV2, MobileNetV3 has three improvements: First, it adjusts the input and output layers of the network, which reduces the delay of backpropagation and sustains the high-dimensional feature space. Second, instead of Sigmoid, a new activation function called H − swish is embedded in MobileNetV3 to decrease computational consumption. Lastly, the SE block is integrated after the depth-wise separable convolution in the inverse residual module, and the bottleneck structure is stimulated to better extract image features synchronously.
+Compared to its MobileNetV1 and MobileNetV2, MobileNetV3 has three improvements: First, it adjusts the input and output layers of the network, which reduces the delay of backpropagation and sustains the high-dimensional feature space. Second, instead of Sigmoid, a new activation function called H − swish is embedded in MobileNetV3 to decrease computational consumption. Lastly, the SE block is integrated after the depth-wise separable convolution in the inverse residual module, and the bottleneck structure is stimulated to better extract image features.
 
 ![](/Images/MobileNetV3.png)
