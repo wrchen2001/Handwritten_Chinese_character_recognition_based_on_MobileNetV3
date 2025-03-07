@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction
-
+This project used the lightweight neural network MobileNetV3 to achieve efficient and accurate handwritten Chinese character recognition. MobileNetV3 significantly reduces the model complexity and computation while maintaining high accuracy, which provides basic support for subsequent processing.
 
 
 ## 2. Dependencies
@@ -10,7 +10,6 @@
 >torch >= 1.10.0  
 >torchvision >= 0.11.0  
 >opencv-python >= 4.8.0.76
-> 1111
 >tensorboardX >= 2.6.2.2
 
 
@@ -24,14 +23,16 @@
 ### 3.3. Parsing
 It is worth noting that the downloaded dataset is not an image format, but a custom gnt file type. Therefore, the gnt file needs to be converted to all the png images in the corresponding label directory.
 
-$\circ$ Step 1:
+$\circ$ Step 1
 
-Extract the downloaded zip file into a gnt file.
+Extract the downloaded zip file into a gnt file. To be notieced that, HWDB1.1trn_gnt.zip unzipped is alz file, so it needs to unzipped alz file again.
 
-Note——HWDB1.1trn_gnt.zip unzipped is alz file, need to unzipped alz file again.
+Unzip the alz file——[Windows](https://alzip.en.softonic.com/download, need to download software), Linux: unalz HWDB1.1trn_gnt.alz
 
-Unzip the alz file——[Windows](https://alzip.en.softonic.com/download need to download software), Linux: unalz HWDB1.1trn_gnt.alz
-
-Step 2:
+$\circ$ Step 2:
 
 Convert the gnt file to all png images in the corresponding label directory. Modify the path in process_gnt.py to run the program.
+
+## 4. Model 
+
+Compared to its MobileNetV1 and MobileNetV2, MobileNetV3 has three improvements: First, it adjusts the input and output layers of the network, which reduces the delay of backpropagation and sustains the high-dimensional feature space. Second, instead of Sigmoid, a new activation function called H − swish is embedded in MobileNetV3 to decrease computational consumption. Lastly, the SE block is integrated after the depth-wise separable convolution in the inverse residual module, and the bottleneck structure is stimulated to better extract image features synchronously.
