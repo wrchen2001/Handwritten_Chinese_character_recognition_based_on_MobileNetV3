@@ -10,7 +10,6 @@ This project used the lightweight neural network MobileNetV3 to achieve efficien
 >torch >= 1.10.0  
 >torchvision >= 0.11.0  
 >opencv-python >= 4.8.0.76
->tensorboardX >= 2.6.2.2
 
 
 ## 3. HWDB Dataset
@@ -18,7 +17,7 @@ This project used the lightweight neural network MobileNetV3 to achieve efficien
 [HWDB](https://www.nlpr.ia.ac.cn/databases/handwriting/Download.html) is a handwritten Chinese character dataset. The dataset comes from the Institute of Automation, Chinese Academy of Sciences. There are three versions of HWDB1.0, HWDB1.1 and HWDB1.2, respectively. In this experiment, we used the HWDB1.1 dataset with a total of 1,176,000 images. The dataset is handwritten by 300 people, which contains 171 Arabic numerals and special symbols, and 3755 GB2312-80 level-1 Chinese characters. Both them, the training set contains words written by 240 writers with 119,516 image, and the test set contains words written by another 60 writers with a total of 29,859 images.
 
 ### 3.2. Download
-[official website](http://www.nlpr.ia.ac.cn/databases/handwriting/Offline_database.html),  [Training set](http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1trn_gnt.zip),  [Test set](http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1tst_gnt.zip)
+[Official website](http://www.nlpr.ia.ac.cn/databases/handwriting/Offline_database.html),  [Training set](http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1trn_gnt.zip),  [Test set](http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1tst_gnt.zip)
 
 ### 3.3. Parsing
 It is worth noting that the downloaded dataset is not an image format, but a custom gnt file type. Therefore, the gnt file needs to be converted to all the png images in the corresponding label directory.
