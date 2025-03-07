@@ -1,4 +1,4 @@
-# Handwritten_Chinese_character_recognition_based_on_MobileNetV3
+# Handwritten Chinese character recognition based on MobileNetV3
 
 
 ## 1. Introduction
