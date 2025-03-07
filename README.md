@@ -36,7 +36,7 @@ Linux：unalz HWDB1.1trn_gnt.alz
 
 $\circ$ Step 2:
 
-Convert the gnt file to all png images in the corresponding label directory. Modify the path in process_gnt.py to run the program.
+Convert the gnt file to all png images in the corresponding label directory. Modify the path in "process_gnt.py" to run the program.
 
 ## 4. Model 
 
