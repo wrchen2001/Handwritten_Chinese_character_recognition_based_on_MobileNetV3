@@ -26,7 +26,9 @@ $\circ$ Step 1
 
 Extract the downloaded zip file into a gnt file. To be notieced that, HWDB1.1trn_gnt.zip unzipped is alz file, so it needs to unzipped alz file again.
 
-Unzip the alz file——[Windows](https://alzip.en.softonic.com/download, need to download software), Linux: unalz HWDB1.1trn_gnt.alz
+Unzip the alz file：
+[Windows](https://alzip.en.softonic.com/download, need to download software)
+Linux: unalz HWDB1.1trn_gnt.alz
 
 $\circ$ Step 2:
 
