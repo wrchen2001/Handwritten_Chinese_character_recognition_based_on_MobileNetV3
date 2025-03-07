@@ -10,7 +10,7 @@
 >torch >= 1.10.0  
 >torchvision >= 0.11.0  
 >opencv-python >= 4.8.0.76
->1111
+> 1111
 >tensorboardX >= 2.6.2.2
 
 
