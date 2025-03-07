@@ -29,7 +29,7 @@ Extract the downloaded zip file into a gnt file. To be notieced that, HWDB1.1trn
 Unzip the alz file：
 [Windows](https://alzip.en.softonic.com/download, need to download software)
 
-Linux: unalz HWDB1.1trn_gnt.alz
+Linux：unalz HWDB1.1trn_gnt.alz
 
 $\circ$ Step 2:
 
