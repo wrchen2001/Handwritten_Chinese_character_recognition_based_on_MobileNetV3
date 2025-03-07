@@ -24,7 +24,7 @@
 ### 3.3. Parsing
 It is worth noting that the downloaded dataset is not an image format, but a custom gnt file type. Therefore, the gnt file needs to be converted to all the png images in the corresponding label directory.
 
-Step 1:
+$\circ$ Step 1:
 
 Extract the downloaded zip file into a gnt file.
 
